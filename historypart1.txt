@@ -1,0 +1,61 @@
+    1  yum install git -y
+    2  git --version
+    3  ls
+    4  ll
+    5  mkdir nayandata
+    6  ls -a
+    7  ls -a /
+    8  pwd
+    9  df -hT
+   10  ls
+   11  cd nayandata/
+   12  ls -a
+   13  git init .
+   14  ls -a
+   15  ls .git
+   16  git config --global user.name "Nayan Mhatre"
+   17  git config --global user.mail "NayanMhatre@gmail.com"
+   18  git config --list
+   19  cd ..
+   20  git config --list
+   21  mkdir test2
+   22  cd test2/
+   23  ls
+   24  git init .
+   25  git config --list
+   26  git config --global user.name "Naya"
+   27  git config --global user.mail "Naya@gmail.com"
+   28  git config --list
+   29  systemctl status git
+   30  cd ../nayandata/
+   31  ls
+   32  vim file1.txt
+   33  vim test1.py
+   34  ls
+   35  git status
+   36  git add file1.txt 
+   37  git status
+   38  git add *
+   39  git status
+   40  ls
+   41  git log
+   42  git commit -m "first commit from oregon"
+   43  git status
+   44  ls
+   45  git log
+   46  git config --global user.email "Naya@gmail.com"
+   47  git log
+   48  git show  31d21cc33500
+   49  ls
+   50  vim file1.txt 
+   51  echo hello > file3.txt
+   52  ls
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "second commit from oregon"
+   57  git log
+   58  git show d40e23bb11471a
+   59  git log --oneline
+   60  history
+   61  history > historypart1.txt
