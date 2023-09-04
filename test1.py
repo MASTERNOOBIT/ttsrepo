@@ -1,0 +1,1 @@
+print("Naya hai wah!")
